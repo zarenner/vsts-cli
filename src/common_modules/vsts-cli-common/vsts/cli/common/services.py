@@ -108,6 +108,9 @@ def get_work_item_tracking_client(team_instance=None):
     connection = get_vss_connection(team_instance)
     return connection.get_client('vsts.work_item_tracking.v4_0.work_item_tracking_client.WorkItemTrackingClient')
 
+def get_upack_client(team_instance=None):
+    connection = get_vss_connection(team_instance)
+    return connection.get_client('vsts.upack_packaging.v5_0.uPack_packaging_client.UPackPackagingClient')
 
 def get_base_url(team_instance):
     if team_instance is not None:

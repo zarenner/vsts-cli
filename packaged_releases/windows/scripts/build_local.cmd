@@ -15,7 +15,7 @@ if "%CLIVERSION%"=="" (
         set CLIVERSION=0.1.1.%BUILD_BUILDID%
     )
 )
-set PYTHON_VERSION=3.6.3
+set PYTHON_VERSION=3.6.5
 
 set WIX_DOWNLOAD_URL="https://vstscli.blob.core.windows.net/msi/wix311-binaries-mirror.zip"
 
